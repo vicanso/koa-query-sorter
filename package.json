@@ -1,0 +1,35 @@
+{
+  "name": "koa-query-sorter",
+  "description": "query sorter middlware for koa",
+  "version": "0.0.1",
+  "author": {
+    "name": "vicanso 小墨鱼",
+    "email": "vicansocanbico@gmail.com"
+  },
+  "keywords": [
+    "koa",
+    "query sort",
+    "middlware"
+  ],
+  "main": "./lib/sort",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vicanso/koa-query-sorter.git"
+  },
+  "readmeFilename": "README.md",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-istanbul": "^0.10.1",
+    "gulp-jshint": "^1.11.0",
+    "gulp-mocha": "^2.1.3",
+    "koa": "^1.1.0",
+    "koa-router": "^5.2.3",
+    "superagent": "^1.4.0"
+  },
+  "readme": "query sorter middlware for koa",
+  "dependencies": {
+    "debug": "*",
+    "lodash": "^3.10.1"
+  }
+}
